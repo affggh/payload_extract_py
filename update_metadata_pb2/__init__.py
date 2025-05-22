@@ -1,0 +1,1 @@
+from update_metadata_pb2.update_metadata_pb2 import *
