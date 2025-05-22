@@ -230,7 +230,7 @@ def _extract_partition_from_payload(
         futures.clear()
 
         if progress: # hide completed progress 
-            if task_id:
+            if task_id != None:
                 progress.update(task_id, visible=False)
                 console.log(f"Extract partition: {partition.partition_name:<16} size: {total_size:<10} ... Done!")
 
